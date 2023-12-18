@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+// In your App.js or similar file
 
 function App() {
+  const style = {
+    background: 'linear-gradient(#051C2C, #893C47,#2E1A47)',
+    minHeight: '100vh',
+    margin: 0,
+    color: 'white',
+    textAlign: 'center' // Added text-align style here
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={style}>
+      {/* Your app content */}
     </div>
   );
 }
