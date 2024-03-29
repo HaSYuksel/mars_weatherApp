@@ -1,0 +1,14 @@
+.sprite-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .sprite-container img {
+    width: 100px; 
+    height: auto;
+  }
+  
+  .sprite-container p {
+    margin-top: 10px;
+    color: white; 
+  }
